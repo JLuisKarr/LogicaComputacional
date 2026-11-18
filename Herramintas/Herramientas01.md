@@ -10,5 +10,8 @@
 3. **Descarga oficial**. Ingresa a la página oficial de RAPTOR y elige el instalador correspondiente a tu sistema operativo (instalador para Windows, paquete para Mac o archivo ZIP para Linux).
 
 ## Flowgorithm es una herramienta educativa gratuita para Windows diseñada para crear, probar y ejecutar algoritmos mediante diagramas de flujo antes de escribir código en un lenguaje tradicional.
+### Características principales
+- **Aprendizaje visual**. Permite construir la lógica de un programa conectando bloques gráficos (variables, entradas, salidas, condicionales If, ciclos While, For y funciones) sin preocuparse por errores de sintaxis como llaves o puntos y coma
+- 
 
 
