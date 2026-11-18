@@ -21,6 +21,18 @@
 
 ----
 
+## Formatos .rap y .fprg
+
+### Ambos formatos (.fprg y .rap) son archivos XML##, pero su arquitectura interna es muy distinta. Mientras que Flowgorithm utiliza un árbol XML sencillo basado en bloques anidados, RAPTOR Avalonia serializa directamente sus objetos de memoria mediante DataContractSerializer de .NET (incluyendo referencias circulares z:Id/z:Ref, espacios de nombres de C# y coordenadas geométricas).
+
+### Diferencias clave entre ambos formatos
+- Declaración de variables. Flowgorithm exige nodos <declare> con tipo de dato estricto; RAPTOR infiere el tipo dinámicamente al asignar un valor y ignora las declaraciones vacías
+- Lógica de los bucles (While y For). En Flowgorithm, un ciclo While se repite mientras la condición sea verdadera; en RAPTOR, el bucle Loop termina cuando la condición de salida se vuelve verdadera (por lo que toda condición While debe invertirse con not (...)).
+- Sintaxis de expresiones. Flowgorithm usa &&, ||, ! y & para concatenar texto, mientras que RAPTOR utiliza and, or, not y +.
+
+---
+
+
 
 
 
