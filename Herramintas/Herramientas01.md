@@ -21,7 +21,7 @@
 
 ----
 ## Formatos .rap y .fprg
-### Ambos formatos (.fprg y .rap) son archivos XML##, pero su arquitectura interna es muy distinta. Mientras que Flowgorithm utiliza un árbol XML sencillo basado en bloques anidados, RAPTOR Avalonia serializa directamente sus objetos de memoria mediante DataContractSerializer de .NET (incluyendo referencias circulares z:Id/z:Ref, espacios de nombres de C# y coordenadas geométricas).
+Ambos formatos (.fprg y .rap) son archivos XML##, pero su arquitectura interna es muy distinta. Mientras que Flowgorithm utiliza un árbol XML sencillo basado en bloques anidados, RAPTOR Avalonia serializa directamente sus objetos de memoria mediante DataContractSerializer de .NET (incluyendo referencias circulares z:Id/z:Ref, espacios de nombres de C# y coordenadas geométricas).
 
 ### Diferencias clave entre ambos formatos
 - Declaración de variables. Flowgorithm exige nodos <declare> con tipo de dato estricto; RAPTOR infiere el tipo dinámicamente al asignar un valor y ignora las declaraciones vacías
@@ -29,6 +29,25 @@
 - Sintaxis de expresiones. Flowgorithm usa &&, ||, ! y & para concatenar texto, mientras que RAPTOR utiliza and, or, not y +.
 
 ---
+
+## El código fuente en C# de RAPTOR Avalonia es completamente de código abierto (open source) y está alojado en el repositorio oficial carlislemc/RAPTOR_Avalonia_MVVM en GitHub, desarrollado por su creador Martin Carlisle.
+
+# Trabajo para el INSTRUCTOR
+
+Construcción de un TRANSPILER .fprg a .rap
+
+### Ventajas para el instructor de tener el código fuente disponible
+- **Inspección exacta del modelo de datos***. Puedes revisar directamente las clases en C# (como Oval, Rectangle, Parallelogram, IF_Control y Loop) para ver todos los atributos marcados con [DataContract] y [DataMember] que exige el archivo .rap.
+- **Creación de un generador nativo en C#**. En lugar de construir el XML manualmente, se puede importar las clases del proyecto en una pequeña aplicación de consola en C# (.NET), instanciar los objetos del diagrama en memoria y llamar directamente a **DataContractSerializer** para que genere un archivo .rap 100 % válido sin errores de esquema.
+- **Extensión directa de la herramienta**. Si se desea integrar la importación de archivos .fprg dentro de la misma interfaz gráfica de RAPTOR Avalonia, se puede compilar una propia versión agregando una opción en el menú File -> Import Flowgorithm.
+---
+
+## Construcción de una herramienta didáctica .fprg -> .rap
+### IDE USADO 
+
+Visual Studio Code con C# Dev Kit
+
+
 
 
 
