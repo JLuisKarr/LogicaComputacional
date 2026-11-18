@@ -5,5 +5,10 @@
 - **Modos de aprendizaje**. Soporta el modo Novato (espacio de trabajo básico) e Intermedio (uso de subdiagramas, procedimientos, paso de parámetros y recursividad), aunque no incluye el modo Orientado a Objetos de la versión clásica de Windows.
 - **Formato de archivos**. Guarda los proyectos en formato moderno .rap (basado en XML). Si tienes archivos antiguos en formato binario, debes cambiarles la extensión a .oldrap antes de abrirlos para migrarlos.
 ###  Descarga e instalación 
-1. Requisitos previos. Necesitas tener instalado el entorno de ejecución .NET Runtime 8.0 en tu computadora.
-2. Descarga oficial. Ingresa a la página oficial de RAPTOR y elige el instalador correspondiente a tu sistema operativo (instalador para Windows, paquete para Mac o archivo ZIP para Linux).
+1. **Requisitos previos**. Necesitas tener instalado el entorno de ejecución .NET Runtime 8.0 en tu computadora.
+2. **Descarga oficial**. Ingresa a la página oficial de RAPTOR y elige el instalador correspondiente a tu sistema operativo (instalador para Windows, paquete para Mac o archivo ZIP para Linux).
+3. **Descarga oficial**. Ingresa a la página oficial de RAPTOR y elige el instalador correspondiente a tu sistema operativo (instalador para Windows, paquete para Mac o archivo ZIP para Linux).
+
+## Flowgorithm es una herramienta educativa gratuita para Windows diseñada para crear, probar y ejecutar algoritmos mediante diagramas de flujo antes de escribir código en un lenguaje tradicional.
+
+
