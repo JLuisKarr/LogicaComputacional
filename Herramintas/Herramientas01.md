@@ -4,3 +4,6 @@
 - **Ejecución visual**. Ilumina cada símbolo del diagrama en tiempo real mientras muestra los valores de las variables en el panel lateral y los resultados en la Master Console.
 - **Modos de aprendizaje**. Soporta el modo Novato (espacio de trabajo básico) e Intermedio (uso de subdiagramas, procedimientos, paso de parámetros y recursividad), aunque no incluye el modo Orientado a Objetos de la versión clásica de Windows.
 - **Formato de archivos**. Guarda los proyectos en formato moderno .rap (basado en XML). Si tienes archivos antiguos en formato binario, debes cambiarles la extensión a .oldrap antes de abrirlos para migrarlos.
+###  Descarga e instalación 
+1. Requisitos previos. Necesitas tener instalado el entorno de ejecución .NET Runtime 8.0 en tu computadora.
+2. Descarga oficial. Ingresa a la página oficial de RAPTOR y elige el instalador correspondiente a tu sistema operativo (instalador para Windows, paquete para Mac o archivo ZIP para Linux).
