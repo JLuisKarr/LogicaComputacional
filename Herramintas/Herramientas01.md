@@ -12,6 +12,16 @@
 ## Flowgorithm es una herramienta educativa gratuita para Windows diseñada para crear, probar y ejecutar algoritmos mediante diagramas de flujo antes de escribir código en un lenguaje tradicional.
 ### Características principales
 - **Aprendizaje visual**. Permite construir la lógica de un programa conectando bloques gráficos (variables, entradas, salidas, condicionales If, ciclos While, For y funciones) sin preocuparse por errores de sintaxis como llaves o puntos y coma
-- 
+- **Ejecución paso a paso**. Al correr el diagrama, resalta cada símbolo conforme se ejecuta, muestra los resultados en una consola integrada y despliega una ventana de vigilancia (Variable Watch) con el valor en tiempo real de cada variable.
+- **Traducción automática a código**. Incluye un visor que convierte el diagrama de flujo en tiempo real a más de 18 lenguajes de programación reales (como Python, C++, C#, Java, JavaScript y PHP), ayudando a los estudiantes a entender cómo se traduce su lógica gráfica a código escrito.
+- **Tipado estricto**. A diferencia de otros programas similares como RAPTOR, obliga a declarar explícitamente el tipo de dato de cada variable (Integer, Real, String, Boolean), lo que facilita la transición posterior hacia lenguajes tipados como C++ o Java.
+### Disponibilidad y formato
+- **Sistema operativo**. Está desarrollado de forma nativa únicamente para Windows (en macOS y Linux requiere ejecutarse mediante herramientas como Wine o máquinas virtuales).
+- **Formato de archivo**. Guarda sus proyectos en archivos .fprg con estructura interna basada en XML.
+
+----
+
+
+
 
 
