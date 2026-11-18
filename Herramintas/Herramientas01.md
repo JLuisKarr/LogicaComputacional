@@ -20,7 +20,6 @@
 - **Formato de archivo**. Guarda sus proyectos en archivos .fprg con estructura interna basada en XML.
 
 ----
-
 ## Formatos .rap y .fprg
 ### Ambos formatos (.fprg y .rap) son archivos XML##, pero su arquitectura interna es muy distinta. Mientras que Flowgorithm utiliza un árbol XML sencillo basado en bloques anidados, RAPTOR Avalonia serializa directamente sus objetos de memoria mediante DataContractSerializer de .NET (incluyendo referencias circulares z:Id/z:Ref, espacios de nombres de C# y coordenadas geométricas).
 
